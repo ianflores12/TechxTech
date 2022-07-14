@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+}
+.container .box{
+    position: relative;
+    width: calc(500px - 100px);
+    height: calc(700px - 100px);
+    background: #000;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+h2{
+    font-style: oblique;
+    color: rgb(43, 214, 226);
+}
+h3{
+    font-style: oblique;
+    color: blueviolet;
+}
+
+body {
+    background-image: url('Sony.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  a{
+    float: top;
+  }
